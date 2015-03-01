@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit.CompareNetObjects", "NUnit.CompareNetObjects\NUnit.CompareNetObjects.csproj", "{215BC9EB-E790-4AE1-8E94-6A0049C20BE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5CEF8A97-9E9F-4602-B4D4-AC21491B4C26}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit.CompareNetObjects.Tests", "NUnit.CompareNetObjects.Tests\NUnit.CompareNetObjects.Tests.csproj", "{2F09D814-DA4B-43DA-A9D1-3066F8429AD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{215BC9EB-E790-4AE1-8E94-6A0049C20BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{215BC9EB-E790-4AE1-8E94-6A0049C20BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{215BC9EB-E790-4AE1-8E94-6A0049C20BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{215BC9EB-E790-4AE1-8E94-6A0049C20BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F09D814-DA4B-43DA-A9D1-3066F8429AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F09D814-DA4B-43DA-A9D1-3066F8429AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F09D814-DA4B-43DA-A9D1-3066F8429AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F09D814-DA4B-43DA-A9D1-3066F8429AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>NUnit.CompareNetObjects</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Ryszard Tarajkowski</authors>
+    <owners>Ryszard Tarajkowski</owners>
+    <licenseUrl>https://raw.githubusercontent.com/redss/Compare-.NET-Objects-for-NUnit/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/redss/Compare-.NET-Objects-for-NUnit</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Hassle free deep object comparison assertions for NUnit.</description>
+    <releaseNotes>This library is basically a wrapper for a great Compare .NET Objects library.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>nunit test testing tdd assert</tags>
+  </metadata>
+</package>

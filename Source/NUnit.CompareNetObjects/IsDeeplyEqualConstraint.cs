@@ -16,30 +16,20 @@ namespace NUnit.CompareNetObjects
             _expectedValue = expectedValue;
         }
 
-        public override bool Matches(object actualValue)
-        {
-            actual = actualValue;
-
-            _comparisonResult = _compareLogic.Compare(actualValue, _expectedValue);
-
-            return _comparisonResult.AreEqual;
-        }
-
-        public override void WriteDescriptionTo(MessageWriter writer)
-        {
-            if (_comparisonResult != null)
-            {
-                writer.Write(_comparisonResult.DifferencesString);
-            }
-        }
-
         public IsDeeplyEqualConstraint WithComparisonConfig(ComparisonConfig comparisonConfig)
         {
             // TODO: Test.
-
-            _compareLogic = new CompareLogic(comparisonConfig);
-            
+            _compareLogic = new CompareLogic(comparisonConfig);            
             return this;
+        }
+
+        public override ConstraintResult ApplyTo<TActual>(TActual actual)
+        {
+            _comparisonResult = _compareLogic.Compare(actual, _expectedValue);
+            Description = _comparisonResult.DifferencesString;
+
+            var result = new ConstraintResult(this, actual, _comparisonResult.AreEqual);
+            return result;
         }
     }
 }

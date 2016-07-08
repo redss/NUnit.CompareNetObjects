@@ -4,7 +4,7 @@ _This library is work in progress._
 
 Hassle-free deep object comparison assertions for NUnit.
 
-This is basically a wrapper for a great [Compare .NET Objects](https://comparenetobjects.codeplex.com/) library.
+This is basically a wrapper for a great [Compare .NET Objects](https://github.com/GregFinzer/Compare-Net-Objects/) library.
 
 See for yourself:
 

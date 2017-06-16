@@ -1,6 +1,6 @@
-﻿# Compare .NET Objects for NUnit
+# Compare .NET Objects for NUnit
 
-_This library is work in progress._
+_This library is discontinued. If you're looking for an alternative, I recommend checking out [Fluent Assertions](https://github.com/fluentassertions/fluentassertions)_
 
 Hassle-free deep object comparison assertions for NUnit.
 
